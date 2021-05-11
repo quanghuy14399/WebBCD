@@ -1,0 +1,63 @@
+{
+  "name": "demotable",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^5.6.0",
+    "@fullcalendar/daygrid": "^5.6.0",
+    "@fullcalendar/interaction": "^5.6.0",
+    "@fullcalendar/timegrid": "^5.6.0",
+    "axios": "^0.21.1",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.6.5",
+    "firebase": "^8.4.3",
+    "fs-web": "^1.0.1",
+    "mitt": "^2.1.0",
+    "moment": "^2.29.1",
+    "primeflex": "^2.0.0",
+    "primeicons": "^4.1.0",
+    "primeng": "^11.0.0",
+    "primevue": "^3.3.2",
+    "sass-loader": "^10.1.1",
+    "vee-validate": "^4.2.3",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.1",
+    "vuex": "^4.0.0-rc.2",
+    "yup": "^0.32.9",
+    "yup-phone": "^1.2.19"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "node-sass": "^5.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

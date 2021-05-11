@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "locationName": "Library",
+      "reporterName": "NQH",
+      "position": "bên trái",
+      "description": "vết nứt khá to",
+      "severity": "Low",
+      "status": "Waiting for maintenance",
+      "Image": "image.jpg",
+      "created": "16-12-2020 10:00:00",
+      "lastModified": "16-12-2020 10:00:00",
+      "AssessmentResult": {
+        "Rating": "4",
+        "Description": "Sua tot"
+      }
+    },
+    {
+      "id": 2,
+      "locationName": "P.191",
+      "reporterName": "NQHuy",
+      "position": "bên trái",
+      "description": "vết nứt khá nhỏ",
+      "severity": "Medium",
+      "status": "Completed",
+      "Image": "image.jpg",
+      "created": "13-12-2020 10:00:00",
+      "lastModified": "16-12-2020 10:00:00",
+      "AssessmentResult": {
+        "Rating": "3",
+        "Description": "Sua tam"
+      }
+    },
+
+    {
+      "id": 3,
+      "locationName": "P.202",
+      "reporterName": "Tuan anh",
+      "position": "bên trái",
+      "description": "vết nứt khá to aaa aaa aaaaa aaaaaa aaaa aaaaa aaaaa aaaaa aaaaa to aaa aaa aaaaa aaaaaa aaaa aaaaa aaaaa to aaa aaa aaaaa aaaaaa aaaa aaaaa aaaaa",
+      "severity": "High",
+      "status": "Waiting for maintenance",
+      "Image": "image.jpg",
+      "created": "10-12-2020 10:00:00",
+      "lastModified": "17-12-2020 10:00:00",
+      "AssessmentResult": {
+        "Rating": "1",
+        "Description": "Sua ko dc"
+      }
+    }
+  ]
+}
